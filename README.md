@@ -1,7 +1,7 @@
 
 # Submission for 18CSC302J - Computer Networks
-This is a **fully featured chess app** written purely in Python using Pygame Library.
-
+<!--This is a **fully featured chess app** written purely in Python using Pygame Library.
+-->
 ![main image](screenshots/main.jpg)
 
 <!-- Click [here](screenshots/screenshots.md) to see more few screenshots of My-PyChess in action!
@@ -27,7 +27,7 @@ The My-PyChess project is available under MIT License. The MIT Licence applies t
 Interested in python game development with pygame and want to learn from this applicaton - I have released a [lite implementation](https://github.com/ankith26/My-PyChess-lite/) of My-PyChess, that focuses just on chess programming - free from all the code for menus, singleplayer, online etc. 
  -->
  
-## Features
+<!-- ## Features
 - Clean GUI with a lot of menus for ease of use.
 - Allows users to make only valid moves and follows all traditional rules of chess.
 - Playable between two clients over the server via TCP-IP connection.
@@ -38,7 +38,7 @@ Interested in python game development with pygame and want to learn from this ap
 - Advaith Suresh RA1911003010604
 - Kusum Grandhi RA1911003010597
 - Suraj Mishra RA1911003010611
-
+-->
 <!-- 
 
 Click [here](CHANGELOG.md) to see full changelog. -->
@@ -69,3 +69,54 @@ Click [here](CHANGELOG.md) to see full changelog. -->
 - I prefer to work on this app locally, I do not commit to github for every change I make. I only commit when a new version is available or when I update any readme, etc.
 - For the next version (v3.3), I plan to release less of new features and focus on the GUI along with any bugfixes or performance improvements. Mainly because v3.2 has come with a lot of code refactoring, new features and changes to the backend, and GUI hasn't recieved much attention by me in this release.
  -->
+# My-PyChess: A Python-Pygame Chess Application
+
+## Overview
+My-PyChess is an interactive chess application developed using Python and Pygame. The application features a user-friendly main menu, online gameplay options, and various user preferences. It showcases advanced programming concepts like socket programming, multi-threading, and GUI development in Python.
+
+## Key Features
+- **Interactive Main Menu**: Utilizing Pygame for graphical interface and event handling.
+- **Online Gameplay**: Ability to play chess online with other players.
+- **User Preferences**: Customizable settings for slideshow backgrounds and sound.
+- **Logging and Server Management**: Server script for handling online gameplay with features like player statistics, game requests, and player kick-out options.
+
+## Technical Components
+- **Pygame for GUI**: Main menu and game interfaces are built using Pygame.
+- **Socket Programming**: For online multiplayer functionality.
+- **Threading**: Managing different aspects of the game and server simultaneously.
+- **Logging**: Advanced logging for debugging and monitoring server activities.
+
+## How It Works
+1. **Main Menu**: Displays options like Online Play, Preferences, and About. Uses Pygame for rendering buttons and handling user inputs.
+2. **Online Gameplay**: Connects players through a server using sockets, enabling online matches.
+3. **User Preferences**: Offers customization such as background slideshow and sound settings.
+4. **Server Script**: Manages online connections, game sessions, and player activities.
+
+## Installation and Usage
+1. Clone the repository.
+2. Install Python and Pygame.
+3. Run the main file to launch the program.
+4. For online play, run the server script.
+
+## Future Enhancements
+- Adding AI opponents for solo play.
+- Improving the GUI for a more engaging user experience.
+- Implementing chat functionality in online mode.
+
+## Limitations
+- Requires a stable internet connection for online gameplay.
+- Limited to chess gameplay; future versions could include other board games.
+
+## Team Members
+- Abhigyan Singh RA1911003010607
+- Advaith Suresh RA1911003010604
+- Kusum Grandhi RA1911003010597
+- Suraj Mishra RA1911003010611
+---
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-0175C2?style=for-the-badge&logo=pygame&logoColor=white)
+![Multiplayer](https://img.shields.io/badge/Multiplayer-00C853?style=for-the-badge)
+![Chess](https://img.shields.io/badge/Chess-D32F2F?style=for-the-badge)
+
+*Note: The stickers are for visual representation only and do not imply any official endorsement.*
